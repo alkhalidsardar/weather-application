@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    background-image: url(bamboo.jpg);
+}
+.box{
+padding: 20px;
+margin: 10px;
+height: 220px;
+width: 340px;
+border-radius: 10px;
+background-color: black;
+color: white;
+opacity: 90%;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+input.searchbar{
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;   /*the line inside search bar while typing*/
+
+}
+button{
+    margin: 7px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.tempreature{
+    font-size: larger;
+    font-family: sans-serif;
+}
+.detail{
+    font-size: larger;
+    font-family: sans-serif;
+}
+h1{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
