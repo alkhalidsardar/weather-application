@@ -4,7 +4,7 @@ body {
     justify-content: center;
     background-color: black;
     align-items: center;
-    background-image: url(bamboo.jpg);
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
 }
 .box{
 padding: 20px;
