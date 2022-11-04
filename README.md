@@ -32,5 +32,7 @@ Please follow the below steps to run this project.
 1. [REACTJS](https://reactjs.org)
 
 ### References
-- [https://kaggle.com/dataset1]()
-- [https://kaggle.com/dataset1](https://kaggle.com/dataset1)
+- [www.geeksforgeeks.org](https://www.geeksforgeeks.org/weather-app-using-vanilla-javascript/)
+- [www.codingnepalweb.com](https://www.codingnepalweb.com/build-weather-app-html-javascript/)
+- [www.studytonight.com](https://www.studytonight.com/post/how-to-build-a-weather-app-using-javascript-for-complete-beginners)
+- [www.researchgate.net](https://www.researchgate.net/publication/315798713_A_Pragmatic_Study_of_Weather_Forecasting_Reports)
