@@ -1,45 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Application</title>
-<link rel="stylesheet" href="hazy.css">
-    <script src="./hazy.js" defer></script>
-</head>
-<body>
-    <div class="main">
-        <div class="navbar">
-        <div class="icon">
-            <i><h1 class="logo">Weather Forecaster</h1></i>
-        
-    </div>
-    <div class="box">
-       <div class="search">
-        <input type="text" class="searchbar" placeholder="Enter Your Location..">
-        <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"></path></svg>
-        </button></div>
-       <div class="weather loading">
-<h2 class="city"> Weather in Mumbai</h2>
-<h1 class="temp">30°C</h1>
-<div class="flex">
-<img src="https://openweathermap.org/img/wn/04n.png" class="icon" />
-<div class="description">Cloudy</div>
-</div>
-<div class="humidity">Humidity: 56%</div>
-<div class="wind">Wind speed: 4.5 km/h</div>
-</div>
- </div>
-    </div></div>
-        <div class="date-container">
-    <div class="time" id="time">
-        12:30 <span id="am-pm">PM</span>
-    </div>
-    <div class="date" id="date">
-        Monday, 31 October
-    </div> 
-</div>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>WeatherForecaster</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav>
+         <div class="logo">
+            WeatherMan
+         </div>
+         <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         </label>
+         <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+         </ul>
+      </nav>
+      <div class="content">
+         <div>
+             WeatherForecaster
+         </div>
+      </div>
+      <a href="weather.html">
+      <button>Find Weather</button>
+      </a>
+      <div class="contentnew">
+         <div>
+             Get realtime weather forecast check tempreture , humidity and pressue!
+         </div>
+
       
-</body>
+   </body>
 </html>
